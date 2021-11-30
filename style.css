@@ -1,0 +1,87 @@
+#corps
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 5%;
+    background-color: cadetblue;
+    border: solid;
+    border-color: black 2px;
+}
+
+
+
+#afficheur
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    left: auto;
+    right: auto;
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    text-align: right;
+ }
+
+
+#pavnum 
+{
+    position: absolute;
+    top: 120px;
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#operateurs 
+{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+button
+{
+    box-sizing: border-box;
+    margin: 10px;
+    width: 80px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#egal
+{
+    position: absolute;
+    margin: 10px;
+    top: 490px;
+    width: 230px;
+    height: 80px;
+}
+
+#efface
+{
+    position: absolute;
+    top: 490px;
+    right: 0px;
+    width: 100px;
+    height: 80px;
+}
